@@ -3,16 +3,6 @@ const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const msg_box = document.getElementsByClassName("death_msg_popup");
 
-const dpr = window.devicePixelRatio || 1;
-
-canvas.width = window.innerWidth * dpr;
-canvas.height = window.innerHeight * dpr;
-
-canvas.style.width = window.innerWidth + "px";
-canvas.style.height = window.innerHeight + "px";
-
-ctx.scale(dpr, dpr);
-
 // Screen Variables
 const height = canvas.height;
 const width = canvas.width;
