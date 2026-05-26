@@ -190,7 +190,7 @@ class Player{
         this.h = height * 0.15;
         this.w = this.h;
         this.x = width / 2 - this.w / 2;
-        this.y = height - this.h - 20;
+        this.y = height - this.h - 200;
          
         // Image Decleraion
         this.bodyImg = playerBodyImg;
