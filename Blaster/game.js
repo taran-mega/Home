@@ -6,7 +6,7 @@ const msg_box = document.getElementsByClassName("death_msg_popup");
 // Screen Variables
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-const height = canvas.height * 0.5;
+const height = canvas.height;
 const width = canvas.width;
 
 // Different Running States
@@ -28,7 +28,7 @@ let touched = false;
 let game_speed = 1;
 let dragging_speed = 0.8;
 let imgP = "Assets/Pictures/";
-let audioP = "Assets/Audios";
+let audioP = "Assets/Audios/";
 
 // Sounds
 const shootSound = new Audio(audioP + "shoot.mp3");
