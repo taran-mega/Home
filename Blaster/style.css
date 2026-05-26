@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background: url("Assets/Pictures/Background.png");
+    overflow: hidden;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    align: center;
+}
+
+canvas{
+    display: block;
+    background: url("Assets/Pictures/Background.png");
+    background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+    touch-action: none;
+}
+
+.Game_Logo{
+    justify-content: center;
+    align: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    overflow: hidden;
+    margin: 10% 0% 0% 10%;
+}
+
+.Menu_btns{
+    color: white;
+    background: rgba(50, 150, 255, 1);
+}
+
+.Menu_btns:active{
+    scale: 0.9;
+    transition: 0.2s ease-in-out;
+    background: rgba(100, 200, 255, 1);
+}
+
+.Menu{
+    min-height: 50vh;
+}
+
+.death_msg_popup{
+    display: none;
+    min-width: 50%;
+    min-height: 100vh;
+    background: #2b96ff;
+    color: white;
+    border-radius: 10px;
+}
+
+.top-ad{
+    background: white;
+    height: 10%;
+}
+
+.bottom-ad{
+    background: white;
+    height: 10%;
+}
