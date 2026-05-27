@@ -5,7 +5,7 @@ const msg_box = document.getElementsByClassName("death_msg_popup");
 
 // Screen Variables
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.height = window.innerHeight * 0.9;
 const height = canvas.height;
 const width = canvas.width;
 
