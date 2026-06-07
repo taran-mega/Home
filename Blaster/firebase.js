@@ -20,4 +20,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getAnalytics(app);
 
-export { db }
+export { db };
