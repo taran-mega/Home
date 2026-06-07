@@ -1,3 +1,24 @@
+import { db } from "./firebase.js";
+
+import {
+  collection,
+  addDoc
+} from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
+
+async function saveScore(name, score) {
+  try {
+    await addDoc(collection(db, "Leaderboard"), {
+      Name: name,
+      Score: score
+    });
+
+    console.log("Saved!");
+  }
+  catch(error) {
+    console.error(error);
+  }
+}
+
 // Get Data From Html
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
