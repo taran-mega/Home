@@ -179,7 +179,7 @@ class Player{
         // Variables
         this.h = height * 0.15;
         this.w = this.h;
-        this.y = height - this.h - 20;
+        this.y = height - this.h - 80;
         
         // Body Image Variable
         this.bodyY = this.y;
