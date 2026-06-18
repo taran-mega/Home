@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <!-- HEAD -->
+    <head>
+        
+        <!-- Meta Data -->
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPERBMP5BG"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-VPERBMP5BG');
+        </script>
+        
+        <!-- Title -->
+        <title>
+            Shooter
+        </title>
+        
+        <!-- External Links -->
+        <link rel = "stylesheet" href = "style.css">
+        
+    </head>
+    
+    <!-- BODY -->
+    <body>
+        
+        <!-- Loading Screen -->
+        <div id = "loadingscreen">
+            
+            <!-- Heading -->
+            <h1>Loading Game...</h1>
+            
+            <!-- Bar -->
+            <div id = "bar">
+                
+                <!-- Progress -->
+                <div id = "progress"></div>
+            </div>
+        </div>
+        
+        <!-- Score -->
+        <div id = "score"></div>
+        
+        <!-- Canvas -->
+        <canvas id = "game"></canvas>
+        
+        <!-- Game Over Screen -->
+        <div id = "gameoverscreen">
+            
+            <!-- Heading -->
+            <div id = "heading">Game Over</div>
+            
+            <!-- Final Score -->
+            <div id = "finalscore"></div>
+            
+            <!-- Retry Button -->
+            <button id = "retrybtn" onClick = "resetGame()">Play Again</button>
+        </div>
+        
+        <!-- Script -->
+        <script src = "game.js"></script>
+        
+    </body>
+    
+</html>

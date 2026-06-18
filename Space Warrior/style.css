@@ -1,0 +1,89 @@
+body{
+    background: gray;
+}
+
+canvas{
+    touch-action: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#score{
+    color: white;
+    position: fixed;
+    display: block;
+    justify-content: right;
+    right: 10px;
+    font-size: 30px;
+}
+
+#loadingscreen{
+    position: fixed;
+    inset: 0;
+    background: #2b1fb9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loadingscreen #bar{
+    width: 200px;
+    height: 10px;
+    background: #8b8bb9;
+    margin-top: 20px;
+}
+
+#loadingscreen #bar #progress{
+    width: 0%;
+    height: 100%;
+    transition: width 0.2s;
+    background: #1cb900;
+}
+
+#gameoverscreen{
+    display: none;
+    z-index: 1000;
+    position: fixed;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Arial;
+    font-size: 40px;
+    
+    background: url("Assets/Pictures/Background.png");
+    color: white;
+    
+    width: 100%;
+    height: 100%;
+}
+
+#gameoverscreen #heading{
+    font-size: 30px;
+}
+
+#gameoverscreen #finalscore{
+    font-size: 25px;
+}
+
+#gameoverscreen #retrybtn{
+    width: 100px;
+    height: 50px;
+    
+    background: linear-gradient(45deg, #7040ff, #6ab6ff);
+    filter: drop-shadow(0px 0px 10px #3115ff);
+    
+    padding: 15px 20px;
+    font-size: 18px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+}
