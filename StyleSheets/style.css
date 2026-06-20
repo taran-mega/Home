@@ -1,0 +1,170 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background: #0D1117;
+    color: white;
+    max-width: 1000px;
+}
+
+h1{
+    background: linear-gradient(90deg, #4F46E5, #06B6D4);
+    text-align: center;
+    border-radius: 25px;
+    min-height: 5vh;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.description{
+    font-size: 25px;
+    min-height: 5vh;
+    margin: 10px 5px 10px 5px;
+    padding: 20px 10px 20px 10px;
+    background: #064E3B;
+    border: 5px solid #10B981;
+    border-radius: 25px;
+}
+
+.game-list{
+    background: linear-gradient(90deg, #4F46E5, #1A1F2E);
+    margin: 20px 5px 20px 5px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+    min-height: 50vh;
+    border: 5px solid #303c53;
+}
+
+.game-list .list-head{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.game-list .apps-card{
+    background: linear-gradient(90deg, #1A1F2E, #212939);
+    margin: 20px 10px 20px 10px;
+    padding: 10px 20px 10px 35px;
+    border: 5px solid #303c53;
+    border-radius: 25px;
+    font-size: 40px;
+    font-weight: 500;
+    min-height: 25vh;
+    overflow: hidden;
+}
+
+.game-list .apps-card .upper-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.game-list .apps-card .upper-content img{
+    width: 170px;
+    height: 170px;
+    filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 1));
+}
+
+.game-list .apps-card .upper-content .left-section .buttons{
+    justify-content: center;
+    align-items: center;
+    align: center;
+    margin: 20px 0px 30px 0px;        
+}
+    
+.game-list .apps-card .upper-content .left-section .buttons button{
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #8B5CF6, #3B82F6);
+    filter: drop-shadow(0px 0px 15px rgba(59,130,246,0.5));
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.game-list .apps-card .upper-content .left-section button:hover{
+    scale: 0.9;
+    transform: 1s ease-in-out;
+}
+
+.game-list .apps-card .upper-content .left-section .heading{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.game-list .apps-card .lower-content .note{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 5px solid #131471;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #14153c, #262771);
+}
+
+.social-media{
+    background: linear-gradient(45deg, #0f0f0f, #525252);
+    border: 5px solid #ff15e7;
+    border-radius: 25px;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    filter: drop-shadow(0px 0px 15px #ff15e7);
+}
+
+.social-media .at-start{
+    font-size: 25px;
+    text-align: center;
+}
+
+.social-media .handles .link{
+    display: flex;
+    aling-items: flex-start;
+}
+
+.social-media .handles .link a{
+    color: #ff15e7;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.social-media .handles .link img{
+    width: 70px;
+    height: 50px;
+}
+
+.social-media .at-end{
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+footer{
+    background:#1A1F2E;
+    min-height: 4vh;
+    font-size: 25px;
+    border: 3px solid #4F46E5;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+footer .policies{
+    color: blue;
+    text-decoration: none;
+    margin: 0px 25px 0px 25px;
+    font-size: 15px;
+}
+
+footer h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-size: 22px;
+    color: #CBD5E1;
+}
