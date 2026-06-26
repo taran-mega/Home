@@ -18,6 +18,10 @@ h1{
     padding: 20px;
 }
 
+h1 .note{
+    font-size: 15px;
+}
+
 .description{
     font-size: 25px;
     min-height: 5vh;
